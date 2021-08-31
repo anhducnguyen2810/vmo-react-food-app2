@@ -1,0 +1,30 @@
+/* footer section */
+.footer-contaner {
+  color: #ffffff;
+  background: #111111;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.footer-contaner a {
+  color: #6c757d;
+  text-decoration: none;
+}
+.footer-contaner a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  /* footer section */
+  .footer-contaner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: left;
+  }
+}
+
+header{
+  background-image:url("https://w0.peakpx.com/wallpaper/770/386/HD-wallpaper-burger-3d-icon-orange-background-3d-symbols-burger-fast-food-icons-3d-icons-burger-sign-fast-food-3d-icons.jpg") ;
+}
